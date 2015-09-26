@@ -3,7 +3,7 @@ rm -rf out || exit 0;
 mkdir out;
 ( cd out
   git init
-  git config user.name "Travis-CI"
+  git config user.name "Benjamin J. Kruger"
   git config user.email "bekroogle@gmail.com"
   cp ../index.html ./index.html
   cp ../js ./ -r
