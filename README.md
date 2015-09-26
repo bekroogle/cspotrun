@@ -1,3 +1,5 @@
+Travis CI Build Status: [![Build Status](https://travis-ci.org/bekroogle/cspotrun.svg?branch=master)](https://travis-ci.org/bekroogle/cspotrun)
+
 # Foundation Compass Template
 
 The easiest way to get started with Foundation + Compass.
