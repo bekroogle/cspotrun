@@ -5,23 +5,18 @@
     %meta{ content: 'width=device-width, initial-scale=1.0', name: 'viewport' }
     %title C Spot Run
     %link{ href: 'stylesheets/app.css', rel: 'stylesheet' }
-    %script{ src: 'bower_components/modernizr/modernizr.js' }
   %body
     .row
       .large-12.columns
-        %p
-          &nbsp;
-    .row
-      .large-12.columns
-        %img{ src: './images/cspotrun-logo.svg' }
-    .row
+        %a#run-btn{ href: '#'} Run!
+    .row#main-row
       .large-6.columns
-        This is me testing to see if my build process is progressing.
-      .large-3.columns
-        &nbsp;
-      .large-3.columns
-        %a{ href: 'mailto:bekroogle@gmail.com' } bekroogle@gmail.com
-    .row
-      %iframe{ id: 'iframe_container', frameborder: '0',
-webkitallowfullscreen: '', mozallowfullscreen:'',
-allowfullscreen:'', width: '550', height: '400', src: 'https://prezi.com/embed/wzudk9180m2h/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0&amp;landing_data=bHVZZmNaNDBIWkRDVE93YVVDTVN5dWF2eDNlZVpKcVJOdVVPM0xIS1RCWFNaa3R4eG5DNS9NNGZ6OG1iclpzTG50TUw&amp;landing_sign=TCo_Y-Y9bX-XNxZtaABAywduQY6TLUFD4etWwNJY_n8' }
+        #editor # Type a program here, then click "Run!"
+      .large-6.columns
+        #terminal >
+    %script{ src: './bower_components/ace-builds/src-noconflict/ace.js' }
+    %script{ src: './bower_components/jquery/dist/jquery.min.js' }
+    %script{ src: './bower_components/pegjs/peg-0.8.0.js' }
+    %script{ src: './bower_components/foundation/js/foundation.js' }
+    %script{ src: './bower_components/foundation/js/foundation/foundation.offcanvas.js' }
+    %script{ src: './js/app.js' }

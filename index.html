@@ -5,34 +5,26 @@
     <meta content='width=device-width, initial-scale=1.0' name='viewport'>
     <title>C Spot Run</title>
     <link href='stylesheets/app.css' rel='stylesheet'>
-    <script src='bower_components/modernizr/modernizr.js'></script>
   </head>
   <body>
     <div class='row'>
       <div class='large-12 columns'>
-        <p>
-          &nbsp;
-        </p>
+        <a href='#' id='run-btn'>Run!</a>
       </div>
     </div>
-    <div class='row'>
-      <div class='large-12 columns'>
-        <img src='./images/cspotrun-logo.svg'>
-      </div>
-    </div>
-    <div class='row'>
+    <div class='row' id='main-row'>
       <div class='large-6 columns'>
-        This is me testing to see if my build process is progressing.
+        <div id='editor'># Type a program here, then click "Run!"</div>
       </div>
-      <div class='large-3 columns'>
-        &nbsp;
-      </div>
-      <div class='large-3 columns'>
-        <a href='mailto:bekroogle@gmail.com'>bekroogle@gmail.com</a>
+      <div class='large-6 columns'>
+        <div id='terminal'>></div>
       </div>
     </div>
-    <div class='row'>
-      <iframe allowfullscreen='' frameborder='0' height='400' id='iframe_container' mozallowfullscreen='' src='https://prezi.com/embed/wzudk9180m2h/?bgcolor=ffffff&amp;amp;lock_to_path=0&amp;amp;autoplay=0&amp;amp;autohide_ctrls=0&amp;amp;landing_data=bHVZZmNaNDBIWkRDVE93YVVDTVN5dWF2eDNlZVpKcVJOdVVPM0xIS1RCWFNaa3R4eG5DNS9NNGZ6OG1iclpzTG50TUw&amp;amp;landing_sign=TCo_Y-Y9bX-XNxZtaABAywduQY6TLUFD4etWwNJY_n8' webkitallowfullscreen='' width='550'></iframe>
-    </div>
+    <script src='./bower_components/ace-builds/src-noconflict/ace.js'></script>
+    <script src='./bower_components/jquery/dist/jquery.min.js'></script>
+    <script src='./bower_components/pegjs/peg-0.8.0.js'></script>
+    <script src='./bower_components/foundation/js/foundation.js'></script>
+    <script src='./bower_components/foundation/js/foundation/foundation.offcanvas.js'></script>
+    <script src='./js/app.js'></script>
   </body>
 </html>
