@@ -10,6 +10,7 @@ mkdir out;
   cp ../images ./ -r
   cp ../stylesheets ./ -r
   cp ../CNAME ./CNAME
+  cp ../bower_components ./bower_components -r
   git add .
   git commit -m "Deployed to Github Pages"
   git push --force --quiet "https://${secure}@${GH_REF}" master:gh-pages > /dev/null 2>&1
