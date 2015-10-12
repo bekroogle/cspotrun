@@ -14,8 +14,15 @@
         #editor # Type a program here, then click "Run!"
       .large-6.columns
         #terminal >
-    %script{ src: 'https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.0/ace.js' }
-    %script{ src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js' }
-    %script{ src: './js/vendor/pegjs/peg-0.8.0.js' }
-    %script{ src: 'https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.3/js/foundation/foundation.js' }
+    %script{ src: './bower_components/ace-builds/src-noconflict/ace.js' }
+    %script{ src: './bower_components/jquery/dist/jquery.min.js' }
+    %script{ src: './bower_components/pegjs/peg-0.8.0.js' }
+    %script{ src: './bower_components/foundation/js/foundation.js' }
+    %script{ src: './bower_components/foundation/js/foundation/foundation.offcanvas.js' }
     %script{ src: './js/app.js' }
+
+    -# %script{ src: 'https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.0/ace.js' }
+    -# %script{ src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js' }
+    -# %script{ src: './js/vendor/pegjs/peg-0.8.0.js' }
+    -# %script{ src: 'https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.3/js/foundation/foundation.js' }
+    -# %script{ src: './js/app.js' }
