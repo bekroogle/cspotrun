@@ -20,12 +20,7 @@ $('document').ready( function() {
 });
 
 var initializeFoundation = function() {
-  $(document).foundation({
-    offcanvas: {
-      open_method: 'overlap',
-      close_on_click: true
-    }
-  });
+  $(document).foundation();
 };
 
 var buildParserFromRepo = function(uri) {
