@@ -23,6 +23,11 @@ $('document').ready( function() {
   loadEditorContent(editor);
 
   createEventHandlers(editor,terminal);
+
+  $(window).on('resize', function() {
+    setAceHeight('editor');
+    setAceHeight('terminal');
+  });
 });
 
 var initializeFoundation = function() {
@@ -37,8 +42,12 @@ var buildParserFromRepo = function(uri) {
 
 var initializeAceEditor = function(id) {
   var aceElement = ace.edit(id);
-  $('#' + id).height(window.innerHeight);
+  setAceHeight(id);
   return aceElement;
+};
+
+var setAceHeight = function(id) {
+  $('#' + id).height(window.innerHeight);
 };
 
 var setAceOptions = function(editor, terminal) {
