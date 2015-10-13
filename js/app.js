@@ -14,10 +14,15 @@ $('document').ready( function() {
       terminal = initializeAceEditor('terminal'),
       contents_uri = 'https://api.github.com/repos/bekroogle/cspotrun-grammar/contents/cspotrun.pegjs';
 
+  debug.editor = editor;
+  debug.terminal = terminal;
+
   buildParserFromRepo(contents_uri);
   setAceOptions(editor, terminal);
 
-  initializeButtonHandlers(editor,terminal);
+  loadEditorContent(editor);
+
+  createEventHandlers(editor,terminal);
 });
 
 var initializeFoundation = function() {
@@ -52,7 +57,25 @@ var setTerminalOptions = function(terminal) {
   terminal.setReadOnly(true);
 };
 
-var initializeButtonHandlers = function(input, output) {
+var loadEditorContent = function(editor) {
+  if (localStorage.hasOwnProperty('editorContent')) {
+    editor.setValue(localStorage.getItem('editorContent'));
+  }
+};
+
+var createEventHandlers = function(editor, terminal) {
+  createAceEventHandlers(editor, terminal);
+
+  createButtonHandlers(editor, terminal);
+};
+
+var createAceEventHandlers = function(editor, terminal) {
+  editor.getSession().on('change', function(e) {
+    localStorage.setItem('editorContent', editor.getValue());
+  });
+};
+
+var createButtonHandlers = function(input, output) {
   $('#run-btn').click( function(evt) {
     evt.preventDefault();
 
