@@ -4,7 +4,8 @@ var parser,
     return_val = [],
     remove_child_objs,
     traverse,
-    symbol_table;
+    symbol_table,
+    debug = {};
 
 $('document').ready( function() {
   initializeFoundation();
@@ -45,9 +46,10 @@ var setEditorOptions = function(id) {
   id.getSession().setMode('ace/mode/python');
 };
 
-var setTerminalOptions = function(id) {
-  id.setTheme('ace/theme/chrome');
-  id.setOption('showGutter', false);
+var setTerminalOptions = function(terminal) {
+  terminal.setTheme('ace/theme/chrome');
+  terminal.setOption('showGutter', false);
+  terminal.setReadOnly(true);
 };
 
 var initializeButtonHandlers = function(input, output) {
