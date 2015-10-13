@@ -1,9 +1,19 @@
 @import "settings";
 @import "foundation";
 
+
 #editor {
   width: 100%;
 }
+
+ul.center-buttons {
+  display: inline-block;
+}
+
+.top-bar {
+  text-align: center;
+}
+
 
 // Or selectively include components
 // @import

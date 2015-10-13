@@ -8,7 +8,16 @@
   %body
     .row
       .large-12.columns
-        %a#run-btn{ href: '#'} Run!
+        %nav.top-bar{ 'data-topbar': '', role: 'navigation' }
+          %ul.title-area
+            %li
+              %img{ src: './resources/csr.svg' }
+          %section.top-bar-section
+            %ul.center-buttons
+              %li.divider
+                %li
+                  %a#run-btn{ href: '#'} Run
+              %li.divider
     .row#main-row
       .large-6.columns
         #editor # Type a program here, then click "Run!"
