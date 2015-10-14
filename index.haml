@@ -11,13 +11,17 @@
         %nav.top-bar{ 'data-topbar': '', role: 'navigation' }
           %ul.title-area
             %li
-              %img{ src: './resources/csr.svg' }
+              %img{ src: './images/csr.svg' }
           %section.top-bar-section
             %ul.center-buttons
               %li.divider
                 %li
                   %a#run-btn{ href: '#'} Run
               %li.divider
+                %li
+                  %a#clear-term-btn{ href: '#'} Clear terminal
+              %li.divider
+
     .row#main-row
       .large-6.columns
         #editor # Type a program here, then click "Run!"
