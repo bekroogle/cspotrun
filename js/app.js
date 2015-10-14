@@ -47,7 +47,7 @@ var initializeAceEditor = function(id) {
 };
 
 var setAceHeight = function(id) {
-  $('#' + id).height(window.innerHeight);
+  $('#' + id).height(window.innerHeight-$('nav').height());
 };
 
 var setAceOptions = function(editor, terminal) {
