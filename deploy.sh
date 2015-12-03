@@ -5,7 +5,7 @@ mkdir out;
   git init
   git config user.name "Benjamin J. Kruger"
   git config user.email "bekroogle@gmail.com"
-  haml ../index.haml ./index.html
+  cp ../index.html ./index.html
   cp ../js ./ -r
   cp ../images ./ -r
   cp ../stylesheets ./ -r
