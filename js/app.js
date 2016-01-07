@@ -57,7 +57,7 @@ var setAceOptions = function(editor, terminal) {
 
 var setEditorOptions = function(id) {
   id.setTheme('ace/theme/monokai');
-  id.getSession().setMode('ace/mode/python');
+  id.getSession().setMode('ace/mode/cspotrun');
 };
 
 var setTerminalOptions = function(terminal) {
