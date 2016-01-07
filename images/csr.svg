@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="84.577843"
+   height="40.000156"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="csr.svg"
+   inkscape:export-filename="C:\wamp\www\cspotrun\resources\csr.png"
+   inkscape:export-xdpi="300.03665"
+   inkscape:export-ydpi="300.03665">
+  <defs
+     id="defs4">
+    <filter
+       id="filter3829"
+       inkscape:label="Duotone"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Change colors to a duotone palette"
+       height="1"
+       width="1"
+       y="0"
+       x="0"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix3831"
+         type="saturate"
+         values="0"
+         result="result1" />
+      <feFlood
+         id="feFlood3833"
+         flood-color="rgb(9,111,152)"
+         result="result2" />
+      <feBlend
+         id="feBlend3835"
+         in2="result1"
+         mode="screen"
+         result="result2" />
+      <feComposite
+         id="feComposite3837"
+         in2="SourceGraphic"
+         operator="in"
+         in="result2" />
+    </filter>
+    <filter
+       id="filter3839"
+       inkscape:label="Duotone"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Change colors to a duotone palette"
+       height="1"
+       width="1"
+       y="0"
+       x="0"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix3841"
+         type="saturate"
+         values="0"
+         result="result1" />
+      <feFlood
+         id="feFlood3843"
+         flood-color="rgb(9,111,152)"
+         result="result2" />
+      <feBlend
+         id="feBlend3845"
+         in2="result1"
+         mode="screen"
+         result="result2" />
+      <feComposite
+         id="feComposite3847"
+         in2="SourceGraphic"
+         operator="in"
+         in="result2" />
+    </filter>
+    <filter
+       id="filter3849"
+       inkscape:label="Duotone"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Change colors to a duotone palette"
+       height="1"
+       width="1"
+       y="0"
+       x="0"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix3851"
+         type="saturate"
+         values="0"
+         result="result1" />
+      <feFlood
+         id="feFlood3853"
+         flood-color="rgb(9,111,152)"
+         result="result2" />
+      <feBlend
+         id="feBlend3855"
+         in2="result1"
+         mode="screen"
+         result="result2" />
+      <feComposite
+         id="feComposite3857"
+         in2="SourceGraphic"
+         operator="in"
+         in="result2" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="125.35671"
+     inkscape:cy="42.288802"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     showguides="false"
+     inkscape:guide-bbox="true"
+     inkscape:snap-grids="true"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="false"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:object-paths="true"
+     inkscape:snap-to-guides="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2985"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       originx="275.51728px"
+       originy="-310.51267px" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="429.62337,138.41468"
+       id="guide2987" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="88.38616,-205.34196"
+       id="guide2989" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="1023.8557,225.47302"
+       id="guide2991" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="88.38616,573.15016"
+       id="guide3011" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="916.04744,568.16622"
+       id="guide3013" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="88.38616,485.48754"
+       id="guide3015" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="184.60355,12.736138"
+       id="guide3017" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="-552.80781,-120.604"
+       id="guide3804" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="1021.2315,692.34443"
+       id="guide3806" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(275.51728,-701.84931)">
+    <path
+       style="font-size:137.82714844000000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#000000;font-family:Consolas;-inkscape-font-specification:Consolas;stroke-opacity:1"
+       d="m -228.10817,701.84991 c -0.25704,10e-4 -0.50115,0.004 -0.69252,0.0112 -0.80749,1.1e-4 -1.36374,4e-5 -2.01986,0 -2.54506,4e-5 -4.73822,0.24608 -6.57739,0.86234 -1.8392,0.61634 -3.34435,1.42601 -4.51744,2.42994 -1.17311,1.004 -2.03865,2.15235 -2.59537,3.44454 -0.55673,1.29227 -0.8352,2.60467 -0.8352,3.93663 0,1.53083 0.29353,2.8538 0.88009,3.96708 0.58655,1.11333 1.35723,2.08257 2.31162,2.90759 0.95438,0.82506 2.04263,1.5399 3.26545,2.14623 1.2228,0.60638 2.47063,1.16773 3.74316,1.68461 1.2725,0.51691 2.52034,1.01964 3.74317,1.50668 1.22278,0.4871 2.31103,1.02282 3.26544,1.60928 0.95437,0.58649 1.72505,1.25325 2.31163,1.99876 0.58652,0.74554 0.88005,1.64557 0.88008,2.69922 -3e-5,0.97416 -0.17467,1.83798 -0.5226,2.59343 -0.34798,0.75547 -0.90331,1.39661 -1.6688,1.92343 -0.76551,0.52684 -1.74994,0.92415 -2.95284,1.19254 -1.20295,0.26837 -2.78349,0.2837 -4.48859,0.2837 l -6.17983,0 -7.82778,0 -4.41324,0 c -0.0662,2e-5 -0.14642,-2e-5 -0.21321,0 -1.43764,4.3e-4 -2.99357,0 -4.58958,0 -3.95675,0 -6.95809,-1.28227 -9.00604,-3.84686 -2.04797,-2.56458 -3.07308,-6.37072 -3.07308,-11.42039 0,-2.40552 0.27847,-4.54874 0.8352,-6.42747 0.55672,-1.87868 1.35304,-3.46791 2.38697,-4.77012 1.03391,-1.30214 2.29071,-2.29701 3.77202,-2.98291 1.48127,-0.68585 3.13704,-1.02901 4.9663,-1.02905 1.78946,0 4.9102,0.002 4.9102,0.002 l 4.42446,0 0,-4.70921 -4.36194,0 c 0,0 -3.34292,-0.003 -5.15227,-0.003 -2.66435,4e-5 -5.06964,0.47713 -7.217,1.43135 -2.14739,0.95431 -3.97619,2.31028 -5.4873,4.06967 -1.51113,1.75946 -2.67467,3.90107 -3.48988,6.42587 -0.81521,2.52485 -1.22314,5.34829 -1.22314,8.46952 0,6.4413 1.47663,11.30702 4.42927,14.59725 2.95263,3.29023 7.18226,4.93521 12.68989,4.93521 1.84653,0 3.56485,-10e-4 5.29814,-0.002 l 0,0.002 9.50458,-0.002 2.70919,0 2.91277,0 c 0,0 2.09205,0.0625 3.12598,0.0625 2.28654,0 4.37876,-0.22877 6.27761,-0.68603 1.89882,-0.45725 3.52446,-1.14805 4.87653,-2.0725 1.35203,-0.92444 2.40567,-2.08335 3.16125,-3.47499 0.75553,-1.39164 1.13334,-3.01098 1.13338,-4.85988 -4e-5,-1.55067 -0.29197,-2.89318 -0.87849,-4.02639 -0.58658,-1.13317 -1.35725,-2.12195 -2.31163,-2.96689 -0.9544,-0.84491 -2.04266,-1.5764 -3.26544,-2.19272 -1.22283,-0.61627 -2.47067,-1.18211 -3.74316,-1.69903 -1.27254,-0.51687 -2.52037,-1.01959 -3.74317,-1.50669 -1.22282,-0.48704 -2.31107,-1.02886 -3.26544,-1.6253 -0.95441,-0.59639 -1.72509,-1.27213 -2.31163,-2.02762 -0.58656,-0.75543 -0.88009,-1.65994 -0.88008,-2.71364 -1e-5,-1.70969 0.71492,-3.07175 2.14651,-4.08569 1.43157,-1.01388 4.37972,-1.55638 6.65914,-1.55638 l 4.20645,0 6.24395,0 5.76463,0 0,-0.016 2.87109,-0.008 5.00958,0 c 2.36607,4e-5 4.20097,0.51621 5.50334,1.54997 1.30232,1.03381 1.95412,2.59453 1.95414,4.68196 -2e-5,1.07357 -0.19422,2.02326 -0.58192,2.84828 -0.38774,0.82506 -0.93411,1.52035 -1.63994,2.08692 -0.70587,0.56662 -1.56082,0.99404 -2.5649,1.28229 -1.00411,0.28829 -2.13306,0.43279 -3.38569,0.43277 l -4.29461,0 -0.17955,0 0,4.26521 0.17955,0 2.50559,0 c 0.77543,2e-5 1.47529,0.0782 2.10163,0.23723 0.6263,0.15906 1.20278,0.42244 1.7297,0.79021 0.52689,0.3678 1.0191,0.86604 1.47643,1.49226 0.45729,0.62625 0.90432,1.41638 1.34177,2.37063 l 5.81593,12.46385 5.99547,0 -6.17342,-12.82289 c -0.79534,-1.57055 -1.5766,-2.82719 -2.34207,-3.77153 -0.76553,-0.94431 -1.69419,-1.60499 -2.78774,-1.98274 1.35203,-0.31807 2.55019,-0.80125 3.59408,-1.44738 1.04383,-0.6461 1.91834,-1.4106 2.62422,-2.2953 0.70583,-0.88466 1.23713,-1.86896 1.59505,-2.95247 0.35786,-1.08346 0.537,-2.2318 0.53703,-3.44455 -3e-5,-1.53077 -0.2439,-2.92743 -0.731,-4.18988 -0.48716,-1.26237 -1.25176,-2.33991 -2.29559,-3.23457 -1.04389,-0.89459 -2.38209,-1.59148 -4.01248,-2.08853 -1.63044,-0.49697 -3.57813,-0.74529 -5.84479,-0.74533 l -13.76553,0.003 -3.73194,0 -2.16735,0 c 0,0 -0.89605,-0.015 -1.6672,-0.0112 z"
+       id="path3000"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>
