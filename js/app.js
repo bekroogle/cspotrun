@@ -91,6 +91,11 @@ var createButtonHandlers = function(input, output) {
     if (!parser) { buildParserFromRepo(); }
     runProgram(input,output);
   });
+
+  $('#clear-term-btn').click( function(evt) {
+    evt.preventDefault();
+    output.setValue('', -1);
+  });
 };
 
 var runProgram = function(input,output) {
