@@ -122,5 +122,6 @@ var hideTerminal = function() {
 
 var runProgram = function(input,output) {
   var ast = parser.parse(input.getValue());
-  output.setValue(traverse(ast),-1);
+  output.setValue(
+    output.getValue() +'\n>'+ traverse(ast),-1);
 };
