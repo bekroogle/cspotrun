@@ -14,6 +14,8 @@ $('document').ready( function() {
       terminal = initializeAceEditor('terminal'),
       contents_uri = 'https://api.github.com/repos/bekroogle/cspotrun-grammar/contents/cspotrun.pegjs';
 
+  // This is just to get global access to these
+  // variables for debugging:
   debug.editor = editor;
   debug.terminal = terminal;
 
@@ -78,7 +80,6 @@ var loadEditorContent = function(editor) {
 
 var createEventHandlers = function(editor, terminal) {
   createAceEventHandlers(editor, terminal);
-
   createButtonHandlers(editor, terminal);
 };
 
@@ -122,6 +123,6 @@ var hideTerminal = function() {
 
 var runProgram = function(input,output) {
   var ast = parser.parse(input.getValue());
-  output.setValue(
-    output.getValue() +'\n>'+ traverse(ast),-1);
+  output.setValue(output.getValue() +'\n>'+
+                  traverse(ast),-1);
 };
