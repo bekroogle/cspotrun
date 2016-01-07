@@ -122,7 +122,31 @@ var hideTerminal = function() {
 }
 
 var runProgram = function(input,output) {
-  var ast = parser.parse(input.getValue());
-  output.setValue(output.getValue() +'\n>'+
-                  traverse(ast),-1);
+  var parseResults = tryParse(input, output);
+  if (typeof parseResults != 'string') {
+    input.getSession().$annotations.push(parseResults);
+    input.getSession().setAnnotations(input.getSession().$annotations);
+    aceAppend(output, parseResults.type +' at row: '+ parseResults.row +
+      ', column: '+ parseResults.column +' => '+ parseResults.text)
+  } else {
+    aceAppend(output, parseResults);
+  }
+};
+var aceAppend = function(id, value) {
+  id.setValue(id.getValue() +'\n'+ value);
+}
+var tryParse = function(input, output) {
+  try {
+    input.getSession().clearAnnotations();
+    var ast = parser.parse(input.getValue());
+    return traverse(ast);
+  } catch (exn) {
+    return {
+      column: exn.column,
+      row: exn.line - 1,
+      type: 'error',
+      raw: exn.message,
+      text: exn.message
+    };
+  }
 };
