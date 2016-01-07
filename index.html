@@ -10,22 +10,11 @@
     <div class='row'>
       <div class='small-12 columns'>
         <nav class='top-bar' data-topbar='' role='navigation'>
-          <ul class='title-area'>
-            <li>
-              <img src='./images/csr.svg'>
-            </li>
-          </ul>
           <section class='top-bar-section'>
-            <ul class='center-buttons'>
-              <li class='divider'>
-                <li>
-                  <a href='#' id='run-btn'>Run</a>
-                </li>
-              </li>
-              <li class='divider'>
-                <li>
-                  <a href='#' id='clear-term-btn'>Clear terminal</a>
-                </li>
+            <ul class='left'>
+              <li class='divider'></li>
+              <li>
+                <a href='#' id='run-btn'>Run</a>
               </li>
               <li class='divider'></li>
             </ul>
@@ -38,13 +27,21 @@
         <div id='editor'># Type a program here, then click "Run!"</div>
       </div>
       <div class='large-12 columns hidden' id='output'>
-        <p>
-          [
-          <a href='#' id='close-term-btn' title='Close Terminal'>
-            X
-          </a>
-          ]
-        </p>
+        <ul>
+          <li>
+            |
+            <a href='#' id='clear-term-btn' title='Clear Terminal'>
+              Clear Terminal
+            </a>
+          </li>
+          |
+          <li>
+            <a href='#' id='close-term-btn' title='Close Terminal'>
+              &times;
+            </a>
+            |
+          </li>
+        </ul>
         <div id='terminal'>></div>
       </div>
     </div>

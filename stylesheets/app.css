@@ -9468,6 +9468,19 @@ ul.center-buttons {
 }
 
 /* line 28, ../scss/app.scss */
-#output p {
+#output {
   text-align: right;
+}
+/* line 30, ../scss/app.scss */
+#output #terminal {
+  text-align: left;
+}
+/* line 33, ../scss/app.scss */
+#output ul {
+  display: inline;
+  list-style-type: none;
+}
+/* line 36, ../scss/app.scss */
+#output ul li {
+  display: inline;
 }

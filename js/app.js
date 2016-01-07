@@ -112,12 +112,12 @@ var createButtonHandlers = function(input, output) {
 var showTerminal = function() {
   setAceHeight('editor', window.innerHeight / 2);
   setAceHeight('terminal', window.innerHeight / 2);
-  $('#output').toggleClass('hidden');
+  $('#output').removeClass('hidden');
 };
 
 var hideTerminal = function() {
   setAceHeight('editor');
-  $('#output').toggleClass('hidden');
+  $('#output').addClass('hidden');
 }
 
 var runProgram = function(input,output) {

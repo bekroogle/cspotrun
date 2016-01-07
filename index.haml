@@ -9,28 +9,30 @@
     .row
       .small-12.columns
         %nav.top-bar(data-topbar= '' role='navigation')
-          %ul.title-area
-            %li
-              %img{ src: './images/csr.svg' }
           %section.top-bar-section
-            %ul.center-buttons
+            %ul.left
               %li.divider
-                %li
-                  %a#run-btn{ href: '#' } Run
+              %li
+                %a#run-btn{ href: '#' } Run
               %li.divider
-                %li
-                  %a#clear-term-btn{ href: '#' } Clear terminal
-              %li.divider
+              -# %li
+              -#   %a#clear-term-btn{ href: '#' } Clear terminal
+              -# %li.divider
 
     .row#main-row
       .large-12.columns#input
         #editor # Type a program here, then click "Run!"
       .large-12.columns.hidden#output
-        %p
-          [
-          %a#close-term-btn{ href: '#', title: 'Close Terminal' }
-            X
-          ]
+        %ul
+          %li
+            |
+            %a#clear-term-btn{ href: '#', title: 'Clear Terminal' }
+              Clear Terminal
+          |
+          %li
+            %a#close-term-btn{ href: '#', title: 'Close Terminal' }
+              &times;
+            |
         #terminal >
     %script{ src: './js/vendor/ace/ace.js' }
     %script{ src: './bower_components/jquery/dist/jquery.min.js' }

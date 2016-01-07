@@ -25,9 +25,20 @@ ul.center-buttons {
   text-align: center;
 }
 
-#output p {
+#output {
   text-align: right;
+  #terminal {
+    text-align: left;
+  }
+  ul {
+    display: inline;
+    list-style-type: none;
+    li {
+      display: inline;
+    }
+  }
 }
+
 // Or selectively include components
 // @import
 //   "foundation/components/accordion",
