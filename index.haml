@@ -7,7 +7,7 @@
     %link{ href: 'stylesheets/app.css', rel: 'stylesheet' }
   %body
     .row
-      .large-12.columns
+      .small-12.columns
         %nav.top-bar(data-topbar= '' role='navigation')
           %ul.title-area
             %li
@@ -23,9 +23,14 @@
               %li.divider
 
     .row#main-row
-      .large-6.columns
+      .large-12.columns#input
         #editor # Type a program here, then click "Run!"
-      .large-6.columns
+      .large-12.columns.hidden#output
+        %p
+          [
+          %a#close-term-btn{ href: '#', title: 'Close Terminal' }
+            X
+          ]
         #terminal >
     %script{ src: './js/vendor/ace/ace.js' }
     %script{ src: './bower_components/jquery/dist/jquery.min.js' }

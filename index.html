@@ -8,7 +8,7 @@
   </head>
   <body>
     <div class='row'>
-      <div class='large-12 columns'>
+      <div class='small-12 columns'>
         <nav class='top-bar' data-topbar='' role='navigation'>
           <ul class='title-area'>
             <li>
@@ -34,10 +34,17 @@
       </div>
     </div>
     <div class='row' id='main-row'>
-      <div class='large-6 columns'>
+      <div class='large-12 columns' id='input'>
         <div id='editor'># Type a program here, then click "Run!"</div>
       </div>
-      <div class='large-6 columns'>
+      <div class='large-12 columns hidden' id='output'>
+        <p>
+          [
+          <a href='#' id='close-term-btn' title='Close Terminal'>
+            X
+          </a>
+          ]
+        </p>
         <div id='terminal'>></div>
       </div>
     </div>

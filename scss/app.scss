@@ -6,6 +6,17 @@
   width: 100%;
 }
 
+#terminal {
+  clear: both;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.hidden {
+  display: none;
+}
+
 ul.center-buttons {
   display: inline-block;
 }
@@ -14,7 +25,9 @@ ul.center-buttons {
   text-align: center;
 }
 
-
+#output p {
+  text-align: right;
+}
 // Or selectively include components
 // @import
 //   "foundation/components/accordion",

@@ -46,8 +46,12 @@ var initializeAceEditor = function(id) {
   return aceElement;
 };
 
-var setAceHeight = function(id) {
-  $('#' + id).height(window.innerHeight-$('nav').height());
+var setAceHeight = function(id, val) {
+  if (val === undefined) {
+    $('#' + id).height(window.innerHeight-$('nav').height());
+  } else {
+    $('#' + id).height(val);
+  }
 };
 
 var setAceOptions = function(editor, terminal) {
@@ -89,14 +93,32 @@ var createButtonHandlers = function(input, output) {
     evt.preventDefault();
 
     if (!parser) { buildParserFromRepo(); }
+
     runProgram(input,output);
+    showTerminal(input, output);
   });
 
   $('#clear-term-btn').click( function(evt) {
     evt.preventDefault();
     output.setValue('', -1);
   });
+
+  $('#close-term-btn').click( function(evt) {
+    evt.preventDefault();
+    hideTerminal();
+  });
 };
+
+var showTerminal = function() {
+  setAceHeight('editor', window.innerHeight / 2);
+  setAceHeight('terminal', window.innerHeight / 2);
+  $('#output').toggleClass('hidden');
+};
+
+var hideTerminal = function() {
+  setAceHeight('editor');
+  $('#output').toggleClass('hidden');
+}
 
 var runProgram = function(input,output) {
   var ast = parser.parse(input.getValue());

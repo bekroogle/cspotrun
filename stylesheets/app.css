@@ -9445,11 +9445,29 @@ th.hide-for-touch {
 }
 
 /* line 9, ../scss/app.scss */
+#terminal {
+  clear: both;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+/* line 16, ../scss/app.scss */
+.hidden {
+  display: none;
+}
+
+/* line 20, ../scss/app.scss */
 ul.center-buttons {
   display: inline-block;
 }
 
-/* line 13, ../scss/app.scss */
+/* line 24, ../scss/app.scss */
 .top-bar {
   text-align: center;
+}
+
+/* line 28, ../scss/app.scss */
+#output p {
+  text-align: right;
 }
